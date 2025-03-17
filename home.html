@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- SEO and Social Sharing Meta Tags -->
+    <meta name="description" content="Personal portfolio of John Doe, showcasing web development, design, and thought leadership.">
+    <meta property="og:title" content="John Doe - Personal Portfolio">
+    <meta property="og:description" content="Explore my work as a creative developer, designer, and blogger.">
+    <meta property="og:image" content="https://yourwebsite.com/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">John Doe</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>John Doe</h1>
+                <h2>Creative Developer & Designer</h2>
+                <p>Transforming ideas into innovative solutions with cutting-edge design and code.</p>
+                <a href="#contact" class="cta-button" aria-label="Contact John Doe">Get in Touch</a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="profile.jpg" alt="John Doe Profile" loading="lazy" class="profile-img">
+                <div class="about-text">
+                    <p>Hi, I’m John Doe, a passionate developer and designer with over 5 years of experience in web development, UI/UX design, and software engineering. I specialize in crafting user-friendly, visually stunning websites and applications that make an impact.</p>
+                    <p>My expertise spans HTML, CSS, JavaScript, React, and design tools like Figma and Adobe XD. I thrive on solving complex challenges and turning concepts into reality through creativity and technical skill.</p>
+                    <a href="resume.pdf" class="resume-link" download aria-label="Download John Doe's Resume">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <h2>My Portfolio</h2>
+            <div class="portfolio-filters" role="group" aria-label="Portfolio category filters">
+                <button class="filter-button active" data-category="all" aria-pressed="true">All</button>
+                <button class="filter-button" data-category="web">Web</button>
+                <button class="filter-button" data-category="app">Apps</button>
+                <button class="filter-button" data-category="design">Design</button>
+            </div>
+            <div class="portfolio-grid" id="portfolio-grid" aria-label="Portfolio projects">
+                <!-- Portfolio items will be dynamically loaded via JavaScript -->
+            </div>
+        </section>
+
+        <section id="testimonials" class="section">
+            <h2>Testimonials</h2>
+            <div class="testimonials-grid" aria-label="Client testimonials">
+                <!-- Testimonials will be dynamically loaded via JavaScript -->
+            </div>
+        </section>
+
+        <section id="blog" class="section">
+            <h2>Blog</h2>
+            <div class="blog-grid" id="blog-grid" aria-label="Blog posts">
+                <!-- Blog posts will be dynamically loaded via JavaScript -->
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <form id="contact-form" class="contact-form" novalidate>
+                <input type="text" placeholder="Your Name" required aria-label="Your Name">
+                <input type="email" placeholder="Your Email" required aria-label="Your Email">
+                <textarea placeholder="Your Message" required aria-label="Your Message"></textarea>
+                <button type="submit" class="cta-button" aria-label="Send message">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 John Doe | <a href="mailto:john.doe@example.com" aria-label="Email John Doe">john.doe@example.com</a> | <a href="tel:+1234567890" aria-label="Call John Doe">(123) 456-7890</a></p>
+        <div class="social-links" role="navigation" aria-label="Social media links">
+            <a href="https://linkedin.com/in/johndoe" target="_blank" aria-label="LinkedIn Profile">LinkedIn</a>
+            <a href="https://github.com/johndoe" target="_blank" aria-label="GitHub Profile">GitHub</a>
+            <a href="https://twitter.com/johndoe" target="_blank" aria-label="Twitter Profile">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="interactive.js"></script>
+    <script src="config.js"></script>
+</body>
+</html>

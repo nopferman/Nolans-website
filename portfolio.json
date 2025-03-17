@@ -1,0 +1,32 @@
+[
+    {
+        "title": "E-Commerce Website Redesign",
+        "description": "A modern redesign for a client’s e-commerce platform, increasing user engagement by 30% with responsive design and optimized UX.",
+        "image": "project1.jpg",
+        "category": "web"
+    },
+    {
+        "title": "Fitness App Prototype",
+        "description": "A sleek mobile app prototype for a fitness tracking service, designed with Figma and built with React Native.",
+        "image": "project2.jpg",
+        "category": "app"
+    },
+    {
+        "title": "Data Visualization Dashboard",
+        "description": "An interactive dashboard for data analysis, built with React and D3.js for real-time insights.",
+        "image": "project3.jpg",
+        "category": "web"
+    },
+    {
+        "title": "UI Design Kit for Startup",
+        "description": "A comprehensive UI design kit for a tech startup, crafted in Adobe XD for seamless development integration.",
+        "image": "project4.jpg",
+        "category": "design"
+    },
+    {
+        "title": "Portfolio Website",
+        "description": "This personal portfolio website, showcasing my skills in web development and design with modern techniques.",
+        "image": "project5.jpg",
+        "category": "web"
+    }
+]

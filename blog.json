@@ -1,0 +1,20 @@
+[
+    {
+        "title": "The Future of Web Design in 2025",
+        "excerpt": "Explore the latest trends in web design, including AI-driven design tools and responsive layouts.",
+        "image": "blog1.jpg",
+        "slug": "future-web-design"
+    },
+    {
+        "title": "Mastering React for Dynamic UIs",
+        "excerpt": "Learn how to build high-performance, interactive user interfaces with React and modern JavaScript.",
+        "image": "blog2.jpg",
+        "slug": "mastering-react"
+    },
+    {
+        "title": "UI/UX Tips for Better User Engagement",
+        "excerpt": "Discover practical tips to improve user experience and engagement through thoughtful design principles.",
+        "image": "blog3.jpg",
+        "slug": "ui-ux-tips"
+    }
+]
